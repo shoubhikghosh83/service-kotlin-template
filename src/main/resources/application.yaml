@@ -1,0 +1,13 @@
+server:
+ port: 8091
+endpoints:
+  prometheus:
+    enabled: true
+management:
+ endpoints:
+  web:
+   exposure:
+    include: "*"
+springdoc:
+ swagger-ui.path: "/api/v1/service-template/swagger-ui-custom.html"
+    
